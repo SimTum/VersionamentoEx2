@@ -4,7 +4,7 @@ body {
     color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     height: 100vh;
 }
 
@@ -43,4 +43,37 @@ button {
     margin-top: 10px;
     color: #ff5252;
     font-weight: bold;
+}
+
+.menue {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.menue div{
+      background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);   
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    font-size: 40px;
+    background-color: #868686;
+}
+li{
+    padding: 20px;
+    text-align: center;
+    color: #ff5252;
+    display: inline;
+}
+li a{ 
+    padding: 10px;
+}
+li a:hover {
+    background-color: #6fa0c8;
+    border-radius: 15px;
 }
