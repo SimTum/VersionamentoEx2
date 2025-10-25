@@ -10,7 +10,7 @@ form.addEventListener("submit", (e) => {
         mensagem.style.color = "#03dac6";
         mensagem.textContent = "Login realizado com sucesso!";
         setTimeout(1000)
-        window.location.replace("./dashboard.html")
+        window.location.replace("./org/dashboard.html")
     } else {
         mensagem.textContent = "Usuário ou senha incorretos.";
     }
