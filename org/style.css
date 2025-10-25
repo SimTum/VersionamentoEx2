@@ -70,6 +70,34 @@ li{
     color: #ff5252;
     display: inline;
 }
+#forma_cadastro {
+    justify-content: center;
+    width: 30em;
+    height: fit-content;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #2626267d;
+    box-shadow: 0 0 15px rgba(160, 168, 177, 0.145);
+}
+
+#forma_cadastro input{
+    margin: 5px;
+    border: #000 none ;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+#forma_cadastro button {
+    margin-top: 40px;
+}
+#forma_cadastro p {
+
+    padding: 5px;
+    border-radius: 10x;
+
+}
+
+
 li a{ 
     padding: 10px;
 }
